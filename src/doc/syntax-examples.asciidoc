@@ -1,0 +1,37 @@
+
+:source-highlighter: prettify
+//:highlightjs-linenums-mode: inline
+
+
+.A PowerShell Example (just because)
+[source,powershell]
+----
+# Create Affinity Group:
+New-Thing -Name "TestGroup" -Label "Monkey" -Location "Wat"
+----
+
+.Configure the Things
+[source,bash]
+----
+# This step requires the dependencies to be installed
+
+while :
+do
+  clear
+  ls -la
+  sleep 1
+done
+----
+
+.Provision with PowerShell
+[source,groovy,linenums]
+----
+def scale = 2
+
+m = new Mountain()
+scale.times { s ->
+  m.grow()
+}
+
+m.export()
+----
